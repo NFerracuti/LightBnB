@@ -112,16 +112,15 @@ const getAllReservations = function (guest_id, limit = 10) {
  */
 
 const getAllProperties = function (options, limit = 10) {
-  // 1
+
   const queryParams = [];
-  // 2
+
   let queryString = `
   SELECT properties.*, avg(property_reviews.rating) as average_rating
   FROM properties
   JOIN property_reviews ON properties.id = property_id
   `;
 
-  // 3
   if (options.city 
     || options.owner_id 
     || options.minimum_price_per_night 
@@ -158,7 +157,6 @@ const getAllProperties = function (options, limit = 10) {
     queryString += `owner_id LIKE $${queryParams.length} `;
   }
 
-  // 4
   queryString += `
   GROUP BY properties.id
   `
