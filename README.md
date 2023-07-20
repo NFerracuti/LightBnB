@@ -4,7 +4,7 @@
 
 LightBNB is an AirBNB clone built during the Lighthouse Labs Bootcamps for the sake of learning PostgreSQL and databases interacting with Node and JS. It is built using SASS, JS, Express, and PostgreSQL.
 
-!["Main Page"](https://github.com/NFerracuti/lightbnb/LightBnB_WebApp-master/docs/lightbnbmain.png?raw=true)
+!["Main Page"](https://github.com/NFerracuti/lightbnb/docs/lightbnbmain.png?raw=true)
 
 ## Setup
 
@@ -19,44 +19,4 @@ Install dependencies with `npm i`.
 ## To Run
     
 To get started, run: "npm run local"
-```
-
-## Project Structure
-
-```
-.
-├── db
-│   ├── json
-│   └── database.js
-├── public
-│   ├── javascript
-│   │   ├── components 
-│   │   │   ├── header.js
-│   │   │   ├── login_form.js
-│   │   │   ├── new_property_form.js
-│   │   │   ├── property_listing.js
-│   │   │   ├── property_listings.js
-│   │   │   ├── search_form.js
-│   │   │   └── signup_form.js
-│   │   ├── libraries
-│   │   ├── index.js
-│   │   ├── network.js
-│   │   └── views_manager.js
-│   ├── styles
-│   │   ├── main.css
-│   │   └── main.css.map
-│   └── index.html
-├── routes
-│   ├── apiRoutes.js
-│   └── userRoutes.js
-├── styles  
-│   ├── _forms.scss
-│   ├── _header.scss
-│   ├── _property-listings.scss
-│   └── main.scss
-├── .gitignore
-├── package-lock.json
-├── package.json
-├── README.md
-└── server.js
 ```
