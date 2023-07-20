@@ -4,7 +4,7 @@
 
 LightBNB is an AirBNB clone built during the Lighthouse Labs Bootcamps for the sake of learning PostgreSQL and databases interacting with Node and JS. It is built using SASS, JS, Express, and PostgreSQL.
 
-!["Main Page"](https://github.com/NFerracuti/lightbnb/docs/lightbnbmain.png?raw=true)
+![lightbnbgif.gif](lightbnbgif.gif)
 
 ## Setup
 
@@ -18,5 +18,9 @@ Install dependencies with `npm i`.
 
 ## To Run
     
-To get started, run: "npm run local"
+To get started, go to the run: "LightBnB_WebApp-master" in termainal and enter "npm run local"
 ```
+
+## ERD
+
+![ightBnB_ERD.png](lightBnB_ERD.png)
